@@ -756,9 +756,9 @@
     };
 
     SegmentedCardNumberInputView.prototype._handleModifiedKeyDown = function(e) {
-      var char;
-      char = String.fromCharCode(e.which);
-      switch (char) {
+      var chara;
+      chara = String.fromCharCode(e.which);
+      switch (chara) {
         case 'a':
         case 'A':
           this._beginSelectAll();
@@ -1042,15 +1042,15 @@
     };
 
     ExpirationInputView.prototype.setPattern = function(pattern) {
-      var char, groupings, i, patternParts, _currentLength, _i, _len;
+      var chara, groupings, i, patternParts, _currentLength, _i, _len;
       groupings = [];
       patternParts = pattern.split('');
       _currentLength = 0;
       for (i = _i = 0, _len = patternParts.length; _i < _len; i = ++_i) {
-        char = patternParts[i];
+        chara = patternParts[i];
         _currentLength++;
-        if (patternParts[i + 1] !== char) {
-          groupings.push([_currentLength, char]);
+        if (patternParts[i + 1] !== chara) {
+          groupings.push([_currentLength, chara]);
           _currentLength = 0;
         }
       }
