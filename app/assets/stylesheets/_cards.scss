@@ -173,7 +173,7 @@ $sprite-front-height: 93.6em;
 // Visa product layout
 // *****************************************************************************
 .skeuocard.product-visa {
-  @extend .skeuocard.card-product;
+  @extend .skeuocard, .card-product;
 
   .face.front{
     background-image: image-url('products/visa-front.png'), $image-front-background;
@@ -250,7 +250,7 @@ $sprite-front-height: 93.6em;
 // China UnionPay card layout
 // *****************************************************************************
 .skeuocard.product-unionpay {
-  @extend .skeuocard.card-product;
+  @extend .skeuocard, .card-product;
 
   .face.front{
     background-image: image-url('products/unionpay-front.png'), $image-front-background;
@@ -286,7 +286,7 @@ $sprite-front-height: 93.6em;
 // American Express card layout
 // *****************************************************************************
 .skeuocard.product-amex {
-  @extend .skeuocard.card-product;
+  @extend .skeuocard, .card-product;
 
   .face.front {
     background-image: image-url('products/amex-front.png'), $image-front-background;
@@ -321,7 +321,7 @@ $sprite-front-height: 93.6em;
 // Diners Club International card layout
 // *****************************************************************************
 .skeuocard.product-dinersclubintl {
-  @extend .skeuocard.card-product;
+  @extend .skeuocard, .card-product;
 
   .face.front{
     background-image: image-url('products/dinersclubintl-front.png'), $image-front-background;
@@ -352,7 +352,7 @@ $sprite-front-height: 93.6em;
 // Mastercard card layout
 // *****************************************************************************
 .skeuocard.product-mastercard {
-  @extend .skeuocard.card-product;
+  @extend .skeuocard, .card-product;
 
   .face.front{
     background-image: image-url('products/mastercard-front.png'), $image-front-background;
@@ -387,7 +387,7 @@ $sprite-front-height: 93.6em;
 // Maestro card layout
 // *****************************************************************************
 .skeuocard.product-maestro {
-  @extend .skeuocard.card-product;
+  @extend .skeuocard, .card-product;
 
   .face.front{
     background-image: image-url('products/maestro-front.png'), $image-front-background;
@@ -422,7 +422,7 @@ $sprite-front-height: 93.6em;
 // Discover card layout
 // *****************************************************************************
 .skeuocard.product-discover {
-  @extend .skeuocard.card-product;
+  @extend .skeuocard, .card-product;
 
   .face.front{
     background-image: image-url('products/discover-front.png'), $image-front-background;
@@ -458,7 +458,7 @@ $sprite-front-height: 93.6em;
 // JCB card product
 // *****************************************************************************
 .skeuocard.product-jcb {
-  @extend .skeuocard.card-product;
+  @extend .skeuocard, .card-product;
 
   .face.front{
     background-image: image-url('products/jcb-front.png'), $image-front-background;
